@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar elemento array</title>
+</head>
+<body>
+    <h1>Verificando palavra em um array (lista)</h1>
+    <h2>
+        <p>
+            É possível realizar com dados contidos no JavaScript, bem como com dados inseridos pelo usuário.
+        </p>
+        
+    </h2>
+
+    <fieldset>
+        <h2><strong>Dados contidos no JavaScript</strong></h2>
+        <div>           
+           <p id="palavra-JS1"><strong>Palavra:</strong>
+           </p>
+
+        <div>
+            <p id="validacao-js"></p>
+        </div>
+
+        <button class="botao" id="arrayBotaoJS" onclick="arrayBotaoJS()">Verificar</button>
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <h2><strong>Dados inseridos pelo usuário</strong></h2><br>
+        <div>
+            <label><strong>Palavra:</strong></label>
+            <input type="value" name="palavra-usuario1" id="palavra-usuario1" required>
+        </div>
+        
+        <p id="lista"></p>
+
+        <div>
+            <p id="validacao-usuario"></p>
+        </div>
+
+        <button class="botao" id="arrayBotaoUsuario" onclick="arrayBotaoUsuario()">Verificar</button>
+    </fieldset>
+    <script src="Verificando palavra array.js"></script>
+</body>
+</html>
