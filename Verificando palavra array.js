@@ -23,7 +23,7 @@ function verificandoElementoArray(lista, palavraProcurada, resultado) {
 
     if(lista.includes(palavraProcurada)) {
         resultado.innerHTML = `A palavra "${palavraProcurada}" está inserida no array:<br> ${listaComEspaco}.`;
-    } else if (lista.includes(palavraProcurada)) {
+    } else if (!lista.includes(palavraProcurada)) {
         resultado.innerHTML = `A palavra "${palavraProcurada}" não está inserida no array:<br> ${listaComEspaco}.`;
     } else {
         resultado.innerHTML = 'Insira uma palavra.';
